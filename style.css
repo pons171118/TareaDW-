@@ -1,0 +1,37 @@
+#titulo{ /*Con este id especificamos las caracteristicas unicas que tendrá el titulo*/
+	color: blue; 
+}
+
+div > p{ /*Todos los elementos <p> donde el padre es un elemento <div>.*/ 
+	color: gray !important; /*La prioridad de que instrucción tomar en cuenta se va a decidir por el important aunque no es una buena practica s
+	*/
+	background-color: yellow;
+}
+
+div p{ /*La funcion de este selector es traer todos tags <p> que esten dentro de un div*/
+	font-family: "Times New Roman";
+	color: red;
+}
+
+.class{ /*El proposito de este selector es traer un atributo especifico que se nombro en el html con un class*/
+	font-size: 20px;
+}
+.dif{ /*El proposito de este selector es traer un atributo especifico que se nombro en el html con un class llamado dif*/
+	font-size: 25px;
+color: green;
+font-family: arial;
+}
+
+
+/*Todos los elementos que tengan esta caracteristicas pues van a tomar el estilo que se esta definiendo*/ 
+
+[id$=-id]{ /*En este bloque se llama a todos aquielos que terminen con el caracter 2*/
+	font-family: "Times New Roman";
+	font-size: 20px;
+	color: red;
+}
+#ter-id{
+	color: white;
+	background: black;
+
+}
